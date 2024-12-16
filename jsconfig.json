@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "paths": {
-            "@/*": ["./*"] // aliase m22ramine
+            "@/*": ["./src/*"] // aliase m22ramine
         }
     }
 }

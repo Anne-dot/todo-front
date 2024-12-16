@@ -1,16 +1,20 @@
+import { Label } from "@radix-ui/react-label";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+
 export const Login = () => {
     return (
-        <form>
+        <form className="max-w-xs mx-auto flex flex-col gap-4">
             <h3>Logi sisse</h3>
-            <div>
-                <label htmlFor="">Email</label>
-                <input type="email" name="email" id="email" />
+            <div className="flex flex-col gap-1">
+                <Label htmlFor="">Email</Label>
+                <Input type="email" name="email" id="email" />
             </div>
-            <div>
-                <label htmlFor="password">Parool</label>
-                <input type="password" name="password" id="password" />
+            <div className="flex flex-col gap-1">
+                <Label htmlFor="password">Parool</Label>
+                <Input type="password" name="password" id="password" />
             </div>
-            <button type="submit">Logi sisse</button>
+            <Button type="submit">Logi sisse</Button>
         </form>
     )
 };
