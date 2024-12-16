@@ -1,0 +1,11 @@
+komponendid suurte tähtedega reactis
+App.css prügikasti
+Tegin kau
+
+https://ui.shadcn.com/themes
+Kasutab k6ike radixine, kuid juba kokku pandud.
+
+
+Radix ui - t2na standard. kui p6hja installid siis max full accessibility kaasas.
+vcag - vb midagi veel. Accessibility master suurtes ettev6tetes peaks olema 
+front end code review juures kaasas.
